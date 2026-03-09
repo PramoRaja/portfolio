@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pramod Rajapakshe | Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Background Glows -->
+    <div class="glow-blob glow-top-left"></div>
+    <div class="glow-blob glow-bottom-right"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-brand">
+            <div class="logo-box">PR</div>
+            <div class="logo-text">
+                <strong>PRAMOD R.</strong>
+                <span>DevOps & Web Developer</span>
+            </div>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#contact" class="hire-me-btn">Hire Me</a>
+
+        <div class="hamburger">
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="#home" class="mobile-link">Home</a></li>
+            <li><a href="#about" class="mobile-link">About</a></li>
+            <li><a href="#experience" class="mobile-link">Experience</a></li>
+            <li><a href="#portfolio" class="mobile-link">Portfolio</a></li>
+            <li><a href="#gallery" class="mobile-link">Gallery</a></li>
+            <li><a href="#skills" class="mobile-link">Skills</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <canvas id="starsCanvas"></canvas>
+        <div class="hero-content reveal">
+            <div class="badge">
+                <i class="fa-solid fa-circle-notch fa-spin-pulse" style="color: var(--accent-blue);"></i>
+                Tech Expert • AI Researcher 🚀 • Web Developer
+            </div>
+
+            <h1 class="hero-title gradient-text">
+                <span>PRAMOD</span>
+                <span class="serif-italic"
+                    style="color: #fff; background: none; -webkit-text-fill-color: initial;">RAJAPAKSHE</span>
+            </h1>
+
+            <p class="hero-subtitle">
+                Automating Solutions. Engineering robust web applications. Pioneering real-time AI research in computer
+                science.
+            </p>
+
+            <a href="#contact" class="hire-me-btn">Let's Talk Business</a>
+        </div>
+    </section>
+
+    <!-- Academic & Leadership Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-label reveal">Academic & Leadership</div>
+            <h2 class="section-headline gradient-text reveal">MY <span class="serif-italic"
+                    style="color: #fff; background: none; -webkit-text-fill-color: initial;">JOURNEY.</span></h2>
+
+            <div class="cards-grid">
+                <div class="card reveal" style="transition-delay: 100ms;">
+                    <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                    <h3>BSc (Applied Science)</h3>
+                    <p>Undergraduate at Rajarata University of Sri Lanka. Majoring in Computer Science, Mathematics, and
+                        Chemistry.</p>
+                </div>
+
+                <div class="card reveal" style="transition-delay: 200ms;">
+                    <div class="card-icon"><i class="fa-solid fa-network-wired" style="color: var(--accent-blue);"></i>
+                    </div>
+                    <h3>Engagement Coordinator</h3>
+                    <p>Leading strategic initiatives as the Branch Engagement Coordinator for IEEE SLSAC.</p>
+                    <span class="date">Feb 2026 - Present</span>
+                </div>
+
+                <div class="card reveal" style="transition-delay: 300ms;">
+                    <div class="card-icon"><i class="fa-solid fa-users"></i></div>
+                    <h3>President & VP</h3>
+                    <p>Driving student innovation at the Industrial Mathematics Students' Association (IMSA).</p>
+                    <span class="date">Mar 2024 - Present</span>
+                </div>
+
+                <div class="card reveal" style="transition-delay: 100ms;">
+                    <div class="card-icon"><i class="fa-solid fa-bolt" style="color: #eab308;"></i></div>
+                    <h3>Chairperson & Vice Chair</h3>
+                    <p>Spearheaded technical events and community building at IEEE Student Branch (RUSL).</p>
+                    <span class="date">Feb 2023 - Feb 2026</span>
+                </div>
+
+                <div class="card reveal" style="transition-delay: 200ms;">
+                    <div class="card-icon"><i class="fa-solid fa-code"></i></div>
+                    <h3>Web Dev Team Leader</h3>
+                    <p>Guiding frontend and backend developers in AIESEC in Rajarata (Dev-Striver IM).</p>
+                    <span class="date">2025 - Present</span>
+                </div>
+
+                <div class="card feature-card reveal" style="transition-delay: 300ms;">
+                    <div class="profile-img"></div>
+                    <div class="feature-info">
+                        <h3>Pramod R.</h3>
+                        <p
+                            style="font-size: 0.75rem; font-weight: 700; letter-spacing: 2px; text-transform: uppercase;">
+                            Lead Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capabilities / Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <div class="section-label reveal">Experience</div>
+            <h2 class="section-headline gradient-text reveal">MY <span class="serif-italic"
+                    style="color: #fff; background: none; -webkit-text-fill-color: initial;">CAPABILITIES.</span></h2>
+
+            <div class="cards-grid">
+                <div class="card reveal" style="transition-delay: 100ms;">
+                    <div class="card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                    <h3>Full-Stack Web Dev</h3>
+                    <p>Developing robust, responsive web applications using React.js, modern JavaScript, PHP, and MySQL.
+                        Delivering custom WordPress architectures and seamless deployment pipelines.</p>
+                </div>
+
+                <div class="card reveal" style="transition-delay: 200ms;">
+                    <div class="card-icon"><i class="fa-solid fa-robot"></i></div>
+                    <h3>AI & ML Researcher</h3>
+                    <p>Driving cutting-edge university research on Real-Time Risk-Aware Sorting using Computer Vision.
+                        Engineering predictive models in Python with custom datasets for intelligent hardware
+                        integrations.</p>
+                </div>
+
+                <div class="card reveal" style="transition-delay: 300ms;">
+                    <div class="card-icon"><i class="fa-solid fa-chart-line"></i></div>
+                    <h3>Project Architect</h3>
+                    <p>Spearheaded 20+ large-scale technical projects exhibiting strategic execution. Proven expertise
+                        managing cross-functional teams for mass-scale technical events like Xtreme 19.0.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <div class="section-label reveal">Projects</div>
+            <h2 class="section-headline gradient-text reveal">SELECTED <span class="serif-italic"
+                    style="color: #fff; background: none; -webkit-text-fill-color: initial;">WORKS.</span></h2>
+
+            <div class="cards-grid portfolio-grid">
+                <div class="card portfolio-card reveal" style="transition-delay: 100ms;">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=800&auto=format&fit=crop"
+                        alt="WordPress Development">
+                    <div class="portfolio-overlay">
+                        <h3>WP Deployment</h3>
+                        <p>Custom Themes & CMS Architecture</p>
+                    </div>
+                </div>
+
+                <div class="card portfolio-card reveal" style="transition-delay: 200ms;">
+                    <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?q=80&w=800&auto=format&fit=crop"
+                        alt="Railway Booking">
+                    <div class="portfolio-overlay">
+                        <h3>Railway System</h3>
+                        <p>JS, HTML5, CSS3 Interactive App</p>
+                    </div>
+                </div>
+
+                <div class="card portfolio-card reveal" style="transition-delay: 300ms;">
+                    <img src="https://images.unsplash.com/photo-1588661730095-207dca467923?q=80&w=800&auto=format&fit=crop"
+                        alt="AI Model">
+                    <div class="portfolio-overlay">
+                        <h3>Vision Detection</h3>
+                        <p>Python AI & Predictive Modeling</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section (Volunteering) -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <div class="section-label reveal">Volunteering</div>
+            <h2 class="section-headline gradient-text reveal">COMMUNITY <span class="serif-italic"
+                    style="color: #fff; background: none; -webkit-text-fill-color: initial;">VIBES.</span></h2>
+
+            <div class="gallery-grid">
+                <!-- Gallery items with high contrast imagery -->
+                <div class="gallery-card reveal" style="transition-delay: 100ms;">
+                    <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?q=80&w=800&auto=format&fit=crop"
+                        alt="Volunteering Event 1">
+                    <div class="gallery-overlay">
+                        <h3>Tech Meetup 2025</h3>
+                    </div>
+                </div>
+
+                <div class="gallery-card reveal" style="transition-delay: 200ms;">
+                    <img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=800&auto=format&fit=crop"
+                        alt="Volunteering Event 2">
+                    <div class="gallery-overlay">
+                        <h3>IEEE Workshop Panel</h3>
+                    </div>
+                </div>
+
+                <div class="gallery-card reveal" style="transition-delay: 300ms;">
+                    <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=800&auto=format&fit=crop"
+                        alt="Volunteering Event 3">
+                    <div class="gallery-overlay">
+                        <h3>Community Hackathon</h3>
+                    </div>
+                </div>
+
+                <div class="gallery-card reveal" style="transition-delay: 100ms;">
+                    <img src="https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=800&auto=format&fit=crop"
+                        alt="Volunteering Event 4">
+                    <div class="gallery-overlay">
+                        <h3>STEM Mentorship</h3>
+                    </div>
+                </div>
+
+                <div class="gallery-card reveal" style="transition-delay: 200ms;">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=800&auto=format&fit=crop"
+                        alt="Volunteering Event 5">
+                    <div class="gallery-overlay">
+                        <h3>University Gala</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-label reveal">Technologies</div>
+            <h2 class="section-headline gradient-text reveal">TECH <span class="serif-italic"
+                    style="color: #fff; background: none; -webkit-text-fill-color: initial;">STACK.</span></h2>
+
+            <div class="cards-grid">
+                <div class="card reveal" style="transition-delay: 100ms;">
+                    <h3>Frontend</h3>
+                    <div class="tags">
+                        <span>React.js</span><span>JavaScript (ES6+)</span><span>HTML5</span><span>CSS Modules</span>
+                    </div>
+                </div>
+
+                <div class="card reveal" style="transition-delay: 200ms;">
+                    <h3>Backend / DBA</h3>
+                    <div class="tags">
+                        <span>Python</span><span>PHP</span><span>Java</span><span>C/C++</span><span>MySQL</span>
+                    </div>
+                </div>
+
+                <div class="card reveal" style="transition-delay: 300ms;">
+                    <h3>Architecture & AI</h3>
+                    <div class="tags">
+                        <span>PyTorch / CV</span><span>Scikit-learn</span><span>Pandas</span><span>NumPy</span>
+                    </div>
+                </div>
+
+                <div class="card reveal" style="transition-delay: 400ms;">
+                    <h3>Tools</h3>
+                    <div class="tags">
+                        <span>Git/GitHub</span><span>Linux Server</span><span>VS Code</span><span>WordPress</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer Section -->
+    <section id="contact" class="section" style="border-bottom: none; padding-bottom: 4rem;">
+        <div class="container contact-hero reveal">
+            <div class="contact-card">
+                <div class="section-label" style="margin-bottom: 1rem;">Let's Connect</div>
+                <h2 class="contact-headline gradient-text">START A <br><span class="serif-italic"
+                        style="color: #fff; background: none; -webkit-text-fill-color: initial;">PROJECT.</span></h2>
+
+                <div class="contact-details">
+                    <p><i class="fa-solid fa-envelope"></i> wrisurupromod@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +94 71 364 7501</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Tissamaharama, Sri Lanka</p>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/pramod-rajapakshe-70847420b" target="_blank"><i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/PramoRaja" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Pramod Rajapakshe. Designed with precision and dark aesthetics.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
